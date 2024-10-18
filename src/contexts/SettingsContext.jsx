@@ -14,6 +14,7 @@ export const SettingsProvider = ({ children }) => {
           dateSize: 'text-xl',
           showQuote: true,
           showSeconds: true,
+          showTodoList: true, // Add this line
           theme: 'light',
           font: 'Arial',
         };
