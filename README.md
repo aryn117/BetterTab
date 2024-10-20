@@ -1,16 +1,18 @@
 ## BetterTab
 ================
 
+![NOTE] YOU MAY NEED TO ENABLE EXTENSION AFTER INSTALING
+https://github.com/user-attachments/assets/9b709164-4602-4c0c-a42f-2555b8620f7b
+
+### Overview
+BetterTab is a Chrome extension that replaces the default new tab page with a customizable and feature-rich dashboard. With BetterTab, you can boost your productivity, stay organized, and enjoy a more streamlined browsing experience.
+
 ### Transform your new tab page into a minimal and productive workspace.
 ![Screenshot 2024-10-19 173943](https://github.com/user-attachments/assets/13692ee9-1290-4066-9d1b-4593d389ea7f)
 ![Screenshot 2024-10-19 174738](https://github.com/user-attachments/assets/dc081755-11f5-4bd1-be81-741df184733b)
 ![Screenshot 2024-10-19 173917](https://github.com/user-attachments/assets/2a584b7e-9446-4a12-a9b9-b7464d394aee)
 ![image](https://github.com/user-attachments/assets/6d7f1804-7a0c-4338-ac6c-50736053da49)
 ![image](https://github.com/user-attachments/assets/4337da8e-7554-4242-995a-4306638e8a1c)
-
-
-### Overview
-BetterTab is a Chrome extension that replaces the default new tab page with a customizable and feature-rich dashboard. With BetterTab, you can boost your productivity, stay organized, and enjoy a more streamlined browsing experience.
 
 ### Features
 - Todo List: Create and manage your to-do lists, with the ability to add, edit, and delete tasks.
