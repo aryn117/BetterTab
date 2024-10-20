@@ -23,45 +23,45 @@ function AppContent() {
 
 
   return (
-    <div className="min-h-screen flex flex-col  bg-secondary">
+    <div className="min-h-screen flex flex-col  bg-base-100 ">
 
       {/*?=============================  */}
       {/* <Modal /> */}
       {/*==============================  */}
       {/* Row 1 / Clock, Quote & Date Display */}
-      <div className="flex flex-row h-[35vh]">
+      <div className="flex  flex-col  lg:flex-row  h-[20vh] lg:h-[35vh]">
         {/* Row 1 -- LEFT COLUMN */}
-        <div className="flex  w-1/3 flex-col justify-center ">
+        <div className="flex w-full pt-12 lg:pt-0 lg:w-1/3 flex-col justify-center ">
           {settings.clockLocation === 'left' && <Clock />}
         </div>
         {/* Row 1 -- CENTER COLUMN */}
-        <div className="flex w-1/3  flex-col justify-center ">
+        <div className="flex w-full lg:w-1/3  flex-col justify-center ">
           {settings.clockLocation === 'center' && <Clock />}
 
         </div>
         {/* Row 1 -- RIGHT COLUMN */}
-        <div className="flex w-1/3  flex-col justify-center ">
+        <div className="flex w-full lg:w-1/3  flex-col justify-center ">
           {settings.clockLocation === 'right' && <Clock />}
 
         </div>
       </div>
 
       {/* Row 2 / Todo List, Pomodoro, Favorite Links */}
-      <div className="h-[65vh]  flex flex-row">
+      <div className="h-[80vh] lg:h-[65vh]  flex flex-col lg:flex-row">
         {/* Row 2 -- LEFT COLUMN */}
-        <div className="flex w-1/3  flex-col items-center px-4 ">
+        <div className="flex w-full lg:w-1/3  flex-col items-center px-4 ">
           {settings.todoLocation === 'left' && settings.showTodoList && <TodoList />}
           {settings.showPomodoro && settings.pomodoroLocation === 'left' && <Pomodoro />}
           {settings.showFavoriteLinks && settings.favoriteLinksLocation === 'left' && <FavoriteLinks />}
         </div>
         {/* Row 2 -- CENTER COLUMN  */}
-        <div className="flex w-1/3  flex-col items-center px-4 ">
+        <div className="flex w-full lg:w-1/3  flex-col items-center px-4 ">
           {settings.todoLocation === 'center' && settings.showTodoList && <TodoList />}
           {settings.showFavoriteLinks && settings.favoriteLinksLocation === 'center' && <FavoriteLinks />}
           {settings.showPomodoro && settings.pomodoroLocation === 'center' && <Pomodoro />}
         </div>
         {/* Row 2 -- RIGHT COLUMN */}
-        <div className="flex w-1/3  flex-col items-center px-4 ">
+        <div className="flex w-full lg:w-1/3  flex-col items-center px-4 ">
           {settings.todoLocation === 'right' && settings.showTodoList && <TodoList />}
           {settings.showFavoriteLinks && settings.favoriteLinksLocation === 'right' && <FavoriteLinks />}
           {settings.showPomodoro && settings.pomodoroLocation === 'right' && <Pomodoro />}

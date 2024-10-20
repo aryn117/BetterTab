@@ -33,15 +33,15 @@ function Clock() {
   const timeFormat = settings.showSeconds ? 'hh:mm:ss a' : 'hh:mm a';
 
   return (
-    <div className="text-center text-secondary-content">
+    <div className="text-center text-base-content">
       <div
-        className={`${settings.clockSize} font-bold`}
+        className={`text-5xl md:${settings.clockSize} font-bold`}
         style={{ fontFamily: settings.font }}
       >
         {format(time, timeFormat)}
       </div>
       <div
-        className={`${settings.dateSize} mt-2`}
+        className={`${settings.dateSize}  mt-2`}
         style={{ fontFamily: settings.font }}
       >
         {format(time, 'EEEE, MMMM do, yyyy')}

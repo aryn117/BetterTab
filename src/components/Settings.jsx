@@ -175,9 +175,13 @@ function Settings() {
             onChange={handleChange}
             className="select select-bordered w-full"
           >
-            <option value="text-4xl">Small</option>
-            <option value="text-6xl">Medium</option>
-            <option value="text-8xl">Large</option>
+       
+            <option value="text-4xl">4XL</option>
+            <option value="text-5xl">5XL</option>
+            <option value="text-6xl">6XL</option>
+            <option value="text-7xl">7XL</option>
+            <option value="text-8xl">8XL</option>
+            <option value="text-9xl">9XL</option>
           </select>
         </div>
 
