@@ -48,7 +48,7 @@ Add more features, such as, weather display, custom fonts, better layout options
 ### Installation
 To install BetterTab, follow these steps:
 
-- Clone the repository using git clone https://github.com/your-username/bettertab.git
+- Clone the repository using git clone https://github.com/aryn117/bettertab.git
 - Navigate to the project directory using cd bettertab
 - Install dependencies using npm install
 - Build the extension using npm run build
