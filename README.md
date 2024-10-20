@@ -1,7 +1,7 @@
-## BetterTab
-================
+# BetterTab
 
-![NOTE] YOU MAY NEED TO ENABLE EXTENSION AFTER INSTALING
+
+> NOTE: YOU MAY NEED TO ENABLE EXTENSION AFTER INSTALING
 ![ezgif-7-a2c7adbdb3](https://github.com/user-attachments/assets/ce25ddfb-d04d-46fa-9ef6-27bce7d3a10d)
 
 
