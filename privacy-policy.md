@@ -32,5 +32,8 @@ If you have any questions about this Privacy Policy
 
 
  or BetterTab, please contact me at 
- arubk744@gmail.com.
-![Contact me on Signal Private Messenger](https://github.com/user-attachments/assets/c4bb3f88-6df6-4fc8-be51-45c6a0412a05)
+ - arubk744@gmail.com. 
+OR
+- Contact Me on Signal Private Messenger
+ <img src="https://github.com/user-attachments/assets/c4bb3f88-6df6-4fc8-be51-45c6a0412a05" width=250px height=350px>
+
