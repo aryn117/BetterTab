@@ -1,5 +1,13 @@
-## BetterTab
-================
+# BetterTab
+
+
+> NOTE: YOU MAY NEED TO ENABLE EXTENSION AFTER INSTALING
+![ezgif-7-a2c7adbdb3](https://github.com/user-attachments/assets/ce25ddfb-d04d-46fa-9ef6-27bce7d3a10d)
+
+
+
+### Overview
+BetterTab is a Chrome extension that replaces the default new tab page with a customizable and feature-rich dashboard. With BetterTab, you can boost your productivity, stay organized, and enjoy a more streamlined browsing experience.
 
 ### Transform your new tab page into a minimal and productive workspace.
 ![Screenshot 2024-10-19 173943](https://github.com/user-attachments/assets/13692ee9-1290-4066-9d1b-4593d389ea7f)
@@ -7,10 +15,6 @@
 ![Screenshot 2024-10-19 173917](https://github.com/user-attachments/assets/2a584b7e-9446-4a12-a9b9-b7464d394aee)
 ![image](https://github.com/user-attachments/assets/6d7f1804-7a0c-4338-ac6c-50736053da49)
 ![image](https://github.com/user-attachments/assets/4337da8e-7554-4242-995a-4306638e8a1c)
-
-
-### Overview
-BetterTab is a Chrome extension that replaces the default new tab page with a customizable and feature-rich dashboard. With BetterTab, you can boost your productivity, stay organized, and enjoy a more streamlined browsing experience.
 
 ### Features
 - Todo List: Create and manage your to-do lists, with the ability to add, edit, and delete tasks.
@@ -44,7 +48,7 @@ Add more features, such as, weather display, custom fonts, better layout options
 ### Installation
 To install BetterTab, follow these steps:
 
-- Clone the repository using git clone https://github.com/your-username/bettertab.git
+- Clone the repository using git clone https://github.com/aryn117/bettertab.git
 - Navigate to the project directory using cd bettertab
 - Install dependencies using npm install
 - Build the extension using npm run build
