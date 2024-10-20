@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { format } from 'date-fns';
 import { useSettings } from '../contexts/SettingsContext';
 
@@ -30,7 +30,7 @@ function Clock() {
     }
   }, [settings.showQuote]);
 
-  const timeFormat = settings.showSeconds ? 'KK:mm:ss a' : 'KK:mm a';
+  const timeFormat = settings.showSeconds ? 'hh:mm:ss a' : 'hh:mm a';
 
   return (
     <div className="text-center text-secondary-content">

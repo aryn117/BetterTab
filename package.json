@@ -1,5 +1,5 @@
 {
-  "name": "browser-extension-newtab",
+  "name": "bettertab",
   "private": true,
   "version": "0.1.0",
   "type": "module",
@@ -17,7 +17,9 @@
     "react-icons": "^4.8.0",
     "express": "^4.17.1",
     "axios": "^0.21.1",
-    "cors": "^2.8.5"
+    "cors": "^2.8.5",
+        "react-chartjs-2": "^5.2.0",
+    "chart.js": "^4.3.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.9.1",

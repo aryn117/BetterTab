@@ -1,4 +1,7 @@
-import React, { createContext, useState, useContext, useEffect } from 'react';
+import { createContext, useState, useContext, useEffect } from 'react';
+
+
+import PropTypes from 'prop-types';
 
 const SettingsContext = createContext();
 
@@ -10,14 +13,28 @@ export const SettingsProvider = ({ children }) => {
     return savedSettings
       ? JSON.parse(savedSettings)
       : {
-          clockSize: 'text-6xl',
-          dateSize: 'text-xl',
-          showQuote: true,
-          showSeconds: true,
-          showTodoList: true, // Add this line
-          theme: 'light',
-          font: 'Arial',
-        };
+        theme: 'light',
+        font: 'Consolas',
+
+        showQuote: true,
+
+        clockSize: 'text-6xl',
+        showSeconds: false,
+        clockLocation: 'center',
+
+        todoLocation: 'left',
+        showTodoList: true, // Add this line
+
+        showFavoriteLinks: true,
+        favoriteLinksLocation: 'right',
+
+        dateSize: 'text-xl',
+        showPomodoro: true, // Add this line
+        pomodoroLocation: 'center',
+        workDuration: 25, // Add this line
+        breakDuration: 5, // Add this line
+
+      };
   });
 
   useEffect(() => {
@@ -31,4 +48,8 @@ export const SettingsProvider = ({ children }) => {
       {children}
     </SettingsContext.Provider>
   );
+};
+
+SettingsProvider.propTypes = {
+  children: PropTypes.node.isRequired,
 };
