@@ -2,7 +2,9 @@
 ================
 
 ![NOTE] YOU MAY NEED TO ENABLE EXTENSION AFTER INSTALING
-https://github.com/user-attachments/assets/9b709164-4602-4c0c-a42f-2555b8620f7b
+![ezgif-7-a2c7adbdb3](https://github.com/user-attachments/assets/ce25ddfb-d04d-46fa-9ef6-27bce7d3a10d)
+
+
 
 ### Overview
 BetterTab is a Chrome extension that replaces the default new tab page with a customizable and feature-rich dashboard. With BetterTab, you can boost your productivity, stay organized, and enjoy a more streamlined browsing experience.
