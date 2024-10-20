@@ -35,7 +35,7 @@ function Clock() {
   return (
     <div className="text-center text-base-content">
       <div
-        className={`text-5xl md:${settings.clockSize} font-bold`}
+        className={`${settings.clockSize} font-bold`}
         style={{ fontFamily: settings.font }}
       >
         {format(time, timeFormat)}

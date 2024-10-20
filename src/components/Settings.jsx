@@ -180,8 +180,8 @@ function Settings() {
             <option value="text-5xl">5XL</option>
             <option value="text-6xl">6XL</option>
             <option value="text-7xl">7XL</option>
-            <option value="text-8xl">8XL</option>
-            <option value="text-9xl">9XL</option>
+       
+
           </select>
         </div>
 
